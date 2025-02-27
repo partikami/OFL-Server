@@ -1,0 +1,1 @@
+web: node --env-file=config.env server.js
