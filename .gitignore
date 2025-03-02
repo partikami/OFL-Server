@@ -133,4 +133,4 @@ dist
 .pnp.*
 
 # Deployment instructions
-depoloyHeroku.md
+deployments.md
