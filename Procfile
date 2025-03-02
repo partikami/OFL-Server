@@ -1,1 +1,1 @@
-web: node --env-file=config.env server.js
+web: node server.js
