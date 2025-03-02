@@ -16,7 +16,7 @@ const app = express();
 // Heroku deployment
 app.use(
   cors({
-    origin: ["https://of-client-9c7ab85a5d42.herokuapp.com"],
+    origin: ["https://of-client-c901ce91e892.herokuapp.com"],
     methods: ["GET", "POST", "PATCH", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type"],
     credentials: true,
