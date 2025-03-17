@@ -5,15 +5,6 @@ import records from "./routes/record.js";
 const PORT = process.env.PORT || 5050;
 const app = express();
 
-// Local development
-/* app.use(
-  cors({
-    origin: ["http://localhost:5173"],
-    credentials: true,
-  })
-); */
-
-// Heroku deployment
 app.use(
   cors({
     origin: [
